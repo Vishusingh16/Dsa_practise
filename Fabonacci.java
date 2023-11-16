@@ -1,5 +1,6 @@
 class Fabonacci {
     public static void main(String[] args) {
+
         Fabonacci recursion = new Fabonacci();
         var rec = recursion.fibonacci(7);
         System.out.println("Fabonacci series: " + rec);
