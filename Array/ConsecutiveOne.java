@@ -1,10 +1,7 @@
+
 package Array;
 
-public class ConsecutiveOne {
-
-    public static int[] ConsecutiveOne(int n) {
-
-    class{
+class ConsecutiveOne {
 
     public int findMaxConsecutiveOnes(int[] nums) {
         int maxi = 0; // Initialize the variable to store the maximum consecutive ones
@@ -25,6 +22,4 @@ public class ConsecutiveOne {
         // Return the maximum consecutive ones
         return maxi;
     }
-}
-
 }
