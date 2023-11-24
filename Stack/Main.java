@@ -20,7 +20,7 @@ public class Main {
 
         int val2 = newStack.peek();
         System.out.println("Popped value: " + val1);
-
+        newStack.DeleteStack();
     }
 
 }

@@ -70,4 +70,11 @@ public class Stack {
         }
     }
 
+    // Delete Method in java
+
+    public void DeleteStack() {
+        arr = null;
+        System.out.println(" The Stack is successfully Deleted");
     }
+
+}
