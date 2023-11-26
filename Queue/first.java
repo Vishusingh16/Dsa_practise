@@ -81,4 +81,9 @@ public class first {
         }
 
     }
+
+    public void delete() {
+        arr = null;
+        System.out.println(" The queue is successfully deleted ");
+    }
 }

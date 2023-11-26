@@ -14,6 +14,8 @@ public class Main {
 
         int result2 = queueArray.peek();
         System.out.println(result2);
+
+        queueArray.deQueue(0);
     }
 
 }
