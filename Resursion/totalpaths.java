@@ -24,3 +24,4 @@ public class totalpaths {
 
     }
 }
+// total path in a maze to go from (0,0 )to (m,n).
