@@ -1,3 +1,5 @@
+package Resursion;
+
 public class NumberAppearonce {
     /*
      * Time Complexity: O(N ^ 2)
