@@ -1,3 +1,5 @@
+package Resursion;
+
 public class nby2 {
     public static void main(String[] args) {
         int[] arr = { 3, 3, 4, 2, 4, 4, 2, 4, 4 };

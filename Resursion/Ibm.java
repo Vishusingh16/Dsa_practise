@@ -1,3 +1,5 @@
+package Resursion;
+
 import java.io.*;
 import java.util.Scanner;
 

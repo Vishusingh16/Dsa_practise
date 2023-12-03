@@ -1,3 +1,5 @@
+package Resursion;
+
 class Gcd {
     public static void main(String[] args) {
         Gcd main = new Gcd();
