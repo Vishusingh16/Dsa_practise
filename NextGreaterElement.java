@@ -3,7 +3,7 @@ import java.util.*;
 class Solution {
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
         int n = nums2.length;
-        int[] res = new int[n];
+        int[] res = new int[nums1.length];
         Map<Integer, Integer> nextGreaterMap = new HashMap<>();
         Stack<Integer> stack = new Stack<>();
 
