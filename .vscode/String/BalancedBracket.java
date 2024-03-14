@@ -1,3 +1,5 @@
+
+
 import java.util.*;
 
 public class BalancedBracket {
@@ -12,7 +14,7 @@ public class BalancedBracket {
                 S.push();
 
             } else {
-                if (S.isempty() || S != map.get(c)) {
+                if (S.isempty() || S!= map.get(c)) {
                     return false;
                 }
                 S.pop();
