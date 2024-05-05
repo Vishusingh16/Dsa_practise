@@ -1,5 +1,6 @@
+import java.util.*;
+
 public class Spiral {
-    
 
     // Function to return a list of integers denoting spiral traversal of matrix.
     static ArrayList<Integer> spirallyTraverse(int matrix[][], int r, int c) {
@@ -40,4 +41,3 @@ public class Spiral {
         return result;
     }
 }
-

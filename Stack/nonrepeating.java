@@ -1,3 +1,6 @@
+package Stack;
+
+import java.util.Arrays;
 
 class nonrepeating {
     // Function to find the first non-repeating character in a string.
