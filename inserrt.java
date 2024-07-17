@@ -5,7 +5,6 @@ class inserrt {
 
     public static int subsetSum(int[] arr, int sum, int n) {
         n = arr.length;
-        int count = 0;
 
         int dp[][] = new int[n + 1][sum + 1];
         for (int i = 0; i <= n; i++) {
@@ -20,15 +19,13 @@ class inserrt {
 
                 if (arr[i - 1] <= j) {
                     dp[i][j] = dp[i - 1][j - arr[i - 1]] + dp[i - 1][j];
-                    count++;
                 } else {
                     dp[i][j] = dp[i - 1][j];
-
                 }
             }
         }
 
-        return count;
+        return dp[n][sum];
     }
 
     public static void main(String[] args) {
