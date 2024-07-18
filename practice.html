@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chup bilkul chup</title>
+</head>
+<Script>
+   document.addEventListener('DOMContentLoaded',function(){
+     document.querySelector('form').onsubmit=function(){
+        const names = document.querySelector('#name').value;
+        alert(`Hello , ${names}`)
+     }
+   })
+</Script>
+<body>
+    <form>
+
+        <input autofocus id="name" placeholder="Name" type="text">
+        <!-- <input id="email" placeholder="Email" type="email"> -->
+        <input type="submit">
+      
+    </form>
+    <button data-color ="pink ">Pink </button>
+    <button data-color="black">Black </button>
+    <button data-color="blue">Blue </button>
+    
+
+    
+</body> 
+</html>
